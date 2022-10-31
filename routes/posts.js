@@ -28,7 +28,7 @@ router.post('/', async(req,res)=>{
     }
 })
 
-// 2. GET 1 (Read)
+// 2. GET ALL (Read)
 
 router.get('/', async(req,res) =>{
     try{
@@ -40,7 +40,7 @@ router.get('/', async(req,res) =>{
 })
 
 
-// 2. GET 2 (Read)
+// 2. GET BY ID (Read)
 
 router.get('/:postId', async(req,res) =>{
     try{
